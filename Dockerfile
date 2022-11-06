@@ -1,6 +1,7 @@
 FROM alpine
 
-RUN apk add --no-cache openblas \
+RUN apk add --no-cache curl     \
+                       openblas \
                        parallel \
                        R
 
